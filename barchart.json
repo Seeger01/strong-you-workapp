@@ -1,0 +1,17 @@
+[{
+  "type": "kg previous",
+  "antal": 10
+},
+  {
+  "type": "kg now",
+  "antal": 12
+},
+  {
+  "type": "reps previous",
+  "antal": 10
+},
+  {
+  "type": "reps now",
+  "antal": 12
+}
+]

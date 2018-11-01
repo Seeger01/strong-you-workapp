@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: auto;
+    width: 100%;
+}
+
+#profile-header-row {
+    height: 25vh;
+    width: 100%;
+}
+
+#hamburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hamburger .fas {
+    font-size: 5vh;
+    color: dimgrey;
+}
+
+#profile-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-information {
+    padding-top: 7.5vh;
+}
+
+#profile-information .fas {
+    font-size: 1.5vh;
+    margin-left: 1.25vh;
+}
+
+.profile-picture {
+    height: 15vh;
+}
+
+.blue {
+    color: #00aced;
+}
+
+.nav-link {
+    background: rgb(241, 241, 241);
+    color: #00aced;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 0 !important;
+}
+
+/* Tab contents */
+
+/* Workouts */
+
+#strength-module {
+    height: 40vh;
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#strength-module h1 {
+    font-size: 4vh;
+}
+
+#strength-module p {
+    margin-top: -25px;
+}
+
+#strength-module .fas {
+    font-size: 3.5vh;
+    margin-left: 1.25vh;
+    color: #00aced;
+}
+
+.info-box {
+    width: 85%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #00aced;
+}
+
+#checkmark {
+    position: absolute;
+    right: 12.5vh;
+}
+
+#session-overview {
+    height: auto;
+    width: 80%;
+    border-top: 1px solid rgb(241, 241, 241);
+    padding-top: 5vh;
+}
+
+#session-box {
+    height: 10vh;
+    margin-bottom: 5vh;
+}
+
+.session-box-number {
+    height: 100%;
+    width: 35%;
+    left: 0;
+    background: rgb(241, 241, 241);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    font-weight: 700;
+    color: dimgray;
+}
+
+.session-box-number-blue {
+    background: #00aced;
+}
+
+#session-box p {
+    color: grey;
+    position: absolute;
+    right: 0;
+    margin-top: .5vh;
+    margin-right: 3vh;
+}
+
+.session-box:first-of-type {
+    background: green;
+    z-index: 1;
+}
+
+/* Session page */
+
+#session-info {
+    height: 35vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 12.5vh;
+    font-size: 5vh;
+}
+
+#session-info .fas {
+    font-size: 7.5vh;
+    color: #00aced;
+}
+
+.back-button {
+    height: 7.5vh;
+    width: 7.5vh;
+    border-radius: 7.5vh;
+    background:rgb(241, 241, 241);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 4.25vh;
+    color: white;
+}
+
+.exercise-list {
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.exercise-list p {
+    color: #00aced;
+    padding: 1.5vh 0;
+}
+
+.exercise-tab {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    padding: 5vh 0;
+}
+
+.exercise-tab-number {
+    height: 7.5vh;
+    width: 7.5vh;
+    background: rgb(241, 241, 241);
+    border-radius: 7.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exercise-tab .fas {
+    color: #00aced;
+}
+
+.exercise-image {
+    background-image: url(e1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 9vh;
+}
+
+#skull {
+    background-image: url(e2.jpg);
+    background-size: 80%;
+}
+
+#pull {
+    background-image: url(e3.png);
+}
+
+#single {
+    background-image: url(e4.png);
+}
+
+#squat {
+    background-image: url(e5.jpg);
+}
+
+#hip {
+    background-image: url(e6.jpg);
+    background-size: 55%;
+}
+
+/* 3rd page */
+
+#workout-log {
+    height: 40vh;
+    width: 90%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    background: rgb(241, 241, 241);
+    border-radius: .5vh;
+    text-align: center;
+}
+
+.linje {
+    margin: .75vh 0;
+}
+
+.outline {
+    border: .2vh solid rgb(206, 204, 204);
+    border-radius: .5vh;
+    background: transparent;
+    color: #00aced;
+}
+
+#back-next {
+    height: 12.5vh;
+    width: 100%;
+}
+
+#back-next-buttons {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.back-buttons {
+    height: 85%;
+    width: 45%;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-buttons {
+    height: 85%;
+    width: 45%;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
